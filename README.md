@@ -1,19 +1,18 @@
 # Number Cruncher
 This repository contains my version of a Simple React Calculator that I made to further my understanding of ReactJs. Unlike my other projects, I'll be the first one to admit that this one's UI is a little poor (I tried to make the calculator look as realistic as possible), but my main focus of this little project was making the calculator work with React on my own, ie. without the help of videos and assistance. 
 
-In this project, instead of doing all the coding for the game on a singular app.js or index.js page, I broke my source code up into their respective component and layout files. I now have a better understanding of how to seperate and intergrate my component files with and from each other, as well as how to better distinguish between Stateless and Functional Components. 
+In this project, instead of doing all the coding for the game on a singular app.js or index.js page, I broke my source code up into their respective component and layout files. I now have a better understanding of how to seperate and intergrate my component files with and from each other, as well as how to better distinguish between Stateless and Functional Components. This calculator is fully functional. You can add, subtract, divide, multiply, modulus, and clear on all operations. I added a bounce effect (CSS Transition) to the heading because I felt bad for not spending more time on the UI, so it is just for creative effects. 
 
-Day 2 of trying to code in React on my own was a success (view my Tic-Tac-React project for day one here: https://github.com/christinec-dev/Tic-Tac-React) I completed it with the following: React, JavaScript, HTML5, CSS3, SCSS and Bootstrap.
+Day two (2) of trying to code in React on my own was a success (view my Tic-Tac-React project for day one here: https://github.com/christinec-dev/Tic-Tac-React) I completed it with the following: React, JavaScript, HTML5, CSS3, SCSS and Bootstrap.
 
-This calculator is fully functional. You can add, subtract, divide, multiply, modulus, and clear on all operations. I added a bounce effect (CSS Transition) to the heading because I felt bad for not spending more time on the UI, so it is just for creative effects. 
-
-#### IMPORTANT NOTE: 
+#### FUTURE NOTE: 
 Later on, when I have more time and understanding, I want to add a function that stores the history of your calculations which can be viewed/deleted when needed.
 
 ## My Version UI
+![Numbc](https://user-images.githubusercontent.com/87696858/129916649-7944f224-5f49-4bb6-a0f3-143c4db07bf2.png)
 
 
-# Getting Started with Create React App
+## This Project Was Made with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
