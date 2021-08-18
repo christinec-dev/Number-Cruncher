@@ -1,0 +1,263 @@
+  @font-face {
+  font-family: "Luv";
+  src: url("css/fonts/NerdyNorms-rKn9.ttf");
+}
+
+:root {
+  --color-white: #fff;
+  --color-light: #eee;
+  --color-bright: #d40640;
+  --color-cute: #ff3c00;
+  --color-black: #000;
+  --color-light-black:rgba(36, 35, 35, 0.301)0;
+  --shadow: rgb(60, 57, 197);
+  --color-bright-transparent: #d4064080;
+}
+
+
+body {
+  margin: 0 auto;
+  height: 100%;
+  background-color: #e5e5f7;
+  background-image:  linear-gradient(#444df7f5 2px, transparent 2px), linear-gradient(90deg, #444df7e1 2px, transparent 2px), linear-gradient(#444df7 1px, transparent 1px), linear-gradient(90deg, #444df7 1px, #e5e5f7 1px);
+  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.game-title {
+  font-family: 'Luv';
+  font-size: 35px;  
+  font-weight: 900;
+  text-align: center;
+  color: #131313; 
+  letter-spacing: 5px;
+  text-shadow: 3px 3px #fff;  
+  animation-name: bounce-top;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes bounce-top {
+  0% {
+    -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(-12px);
+            transform: translateY(-12px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+@keyframes bounce-top {
+  0% {
+    -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(-12px);
+            transform: translateY(-12px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+
+.Header {
+  background: #be95ff27;
+  margin-top: 50px !important;
+}
+
+.calculator {
+  margin-top: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  box-shadow: 0 1rem 2rem var(--shadow);
+  height: 75.3vh;
+  width: 30%;
+  background-color:  rgba(204, 197, 197, 0.904)  !important;
+}
+
+@media screen and (max-width: 1280px) {
+  .calculator {
+      width: 50%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .calculator {
+      width: 80%; 
+  }
+
+  .game-title {
+    font-size: 30px;  
+    line-height: 60px;
+  }
+
+  .Header {
+    margin-top: 20px !important;
+  }
+}
+
+.result-screen {
+  height: 19vh;
+  font-size: 8rem;
+  font-weight: 600;
+  /* To display the value at the bottom-right of the container */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end; 
+  color: #fff;
+  border: none; 
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.compute-screen {
+  height: 6vh;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;  
+}
+
+.main-screen {
+  height: 25vh;  
+  border-radius: 10px 10px 0px 0px !important;
+  width: 100%;
+  padding: 0 2rem;
+  overflow: hidden;
+  color: white;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+
+.keypad {
+  height: 50vh;
+  width: 100%; 
+  background-color:  rgb(211, 209, 209)  !important;
+  border-radius: 10px 10px 10px 10px !important;
+}
+
+.keypad__row {
+  height: 10vh;
+  width: 100%; 
+  display: flex; 
+  color: var(--color-black);
+}
+
+.btn {
+  width: 25%;
+  height: 100%;
+  font-size: 3rem;
+  font-weight: 500 !important;
+  font-family: inherit;
+  background-color: var(--color-white);
+  border: 1px solid rgba(24, 23, 23, 0.205) !important;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .2s;  
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+}
+
+.btn:hover {
+  color: #131313 !important;
+  font-weight: 900;
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #c4c7f7 74%);
+}
+
+.btn:active {
+  transform: scale(.95); 
+}
+
