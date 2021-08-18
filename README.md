@@ -3,7 +3,7 @@ This repository contains my version of a Simple React Calculator that I made to 
 
 In this project, instead of doing all the coding for the game on a singular app.js or index.js page, I broke my source code up into their respective component and layout files. I now have a better understanding of how to seperate and intergrate my component files with and from each other, as well as how to better distinguish between Stateless and Functional Components. This calculator is fully functional. You can add, subtract, divide, multiply, modulus, and clear on all operations. I added a bounce effect (CSS Transition) to the heading because I felt bad for not spending more time on the UI, so it is just for creative effects. 
 
-Day two (2) of trying to code in React on my own was a success (view my Tic-Tac-React project for day one here: https://github.com/christinec-dev/Tic-Tac-React) I completed it with the following: React, JavaScript, HTML5, CSS3, SCSS and Bootstrap.
+Day two (2) of trying to code in React on my own was a success. You can view my Tic-Tac-React project for day one here: https://github.com/christinec-dev/Tic-Tac-React). I completed it with the following: React, JavaScript, HTML5, CSS3, SCSS and Bootstrap.
 
 #### FUTURE NOTE: 
 Later on, when I have more time and understanding, I want to add a function that stores the history of your calculations which can be viewed/deleted when needed.
