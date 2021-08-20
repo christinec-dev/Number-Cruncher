@@ -8,10 +8,13 @@ Day two (2) of trying to code in React on my own was a success. You can view my 
 #### FUTURE NOTE: 
 Later on, when I have more time and understanding, I want to add a function that stores the history of your calculations which can be viewed/deleted when needed.
 
+## Video Preview
+https://user-images.githubusercontent.com/87696858/130235439-d00413ec-5c47-4713-a8d9-323fcacacc47.mp4
+
 ## My Version UI
 ![Numbc](https://user-images.githubusercontent.com/87696858/129916649-7944f224-5f49-4bb6-a0f3-143c4db07bf2.png)
 
-
+________________________________________________________________________________________________________________________________________________________________________________
 ## This Project Was Made with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
